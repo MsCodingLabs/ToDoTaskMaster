@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoTaskMaster</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="light-mode">
+    <header class="text-center mb-4">
+      <h1 class="display-4">ToDo - TaskMaster</h1>
+      <p class="h4">Let’s get things done!</p>
+      <!-- Theme Auswahl -->
+      <select id="themeSelect" class="form-control w-auto mx-auto mt-2">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="blue">Blue</option>
+      </select>
+    </header>
+
+    <main class="container">
+      <!-- Task Counter -->
+      <div id="taskCounter" class="mb-2 text-muted text-right"></div>
+
+      <!-- Task List -->
+      <section class="card mb-4">
+        <ul id="tasksList" class="list-group list-group-flush">
+          <li id="emptyList" class="list-group-item empty-list text-center">
+            <img src="./img/blatt.png" alt="Leaf" class="my-3" width="48" />
+            <div class="empty-list__title text-muted">No tasks here!</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Add Task Form -->
+      <section class="card bg-light">
+        <div class="card-header text-center">Add New Task</div>
+        <div class="card-body">
+          <form id="form">
+            <input
+              type="text"
+              id="taskInput"
+              class="form-control"
+              placeholder="What's next on your list?"
+            />
+            <small class="form-text text-muted">Add something to do!</small>
+            <button type="submit" class="btn btn-primary mt-3">Add Task</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center mt-4 text-muted">
+      Your free task list, brought to you by
+      <a href="#" target="_blank">Mrs. Coding.</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
