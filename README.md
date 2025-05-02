@@ -2,6 +2,9 @@
 
 Eine einfache To-Do-Liste-App, mit der du Aufgaben hinzufügen, entfernen und als erledigt markieren kannst. Die App unterstützt drei Themes: hell, dunkel und blau.
 
+## Screenshot
+![ToDo TaskMaster](./img/ToDoTaskMaster.png)
+
 ## ✨ Funktionen
 
 - Aufgaben hinzufügen, löschen und als erledigt markieren  
