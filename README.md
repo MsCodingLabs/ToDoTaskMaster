@@ -1,25 +1,19 @@
-# ToDo - TaskMaster 📝
+# 📝 ToDo – TaskMaster: Deine Aufgaben, dein Stil, dein Flow
 
-Eine einfache To-Do-Liste-App, mit der du Aufgaben hinzufügen, entfernen und als erledigt markieren kannst. Die App unterstützt drei Themes: hell, dunkel und blau.
+Verabschiede dich von langweiligen To-Do-Apps!  
+Mit dieser einfachen, aber leistungsstarken App kannst du Aufgaben hinzufügen, löschen und per Drag-and-Drop sortieren – und das alles mit einem Style, der zu dir passt: **hell, dunkel oder blau**.
 
 ## Screenshot
 ![ToDoTaskMaster.png](https://github.com/MsCodingLabs/ToDoTaskMaster/blob/main/ToDoTaskMaster.png)
 
-## ✨ Funktionen
+## 🚀 Funktionen:
+- ✅ Aufgaben hinzufügen, löschen und als erledigt markieren  
+- 🎨 Wechsel zwischen drei eleganten Designs: hell, dunkel, blau  
+- 🔄 Drag-and-Drop zum Sortieren von Aufgaben  
 
-- Aufgaben hinzufügen, löschen und als erledigt markieren  
-- Wechsel zwischen drei Designs: hell, dunkel, blau  
-- Aufgaben durch Drag-and-Drop sortieren
+## 🛠️ Technologien:
+- **HTML5** – Struktur der App  
+- **CSS3** – Styling (mit Bootstrap für ein modernes Layout)  
+- **JavaScript** – Interaktive Funktionen und Logik  
 
-## 🛠️ Verwendung
-
-1. Klone das Repository auf deinen lokalen Computer.
-2. Öffne die Datei `index.html` in deinem Browser, um die App auszuführen.
-3. Du kannst neue Aufgaben im Eingabefeld hinzufügen, Aufgaben mit dem Lösch-Button löschen oder Aufgaben als erledigt markieren.
-4. Wähle ein Design aus, indem du das Dropdown-Menü nutzt.
-
-## 🌍 Verwendete Technologien
-
-- **HTML** – Struktur der App  
-- **CSS** – Styling (Bootstrap für das Design)  
-- **JavaScript** – Interaktive Funktionen und Logik
+> Einfach klonen, `index.html` öffnen und produktiv werden – ohne Ablenkung.
